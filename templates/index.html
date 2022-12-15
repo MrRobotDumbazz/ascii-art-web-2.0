@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ascii-Art-Web</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/static/mainpage.css">
+</head>
+<body>
+    <div class="container text-center">        
+        <h1>Ascii-Art-Web</h1>
+        <form method="post" action="ascii-art">
+                <textarea name="input" id="input"> Type me!</textarea>
+                <p>
+                    <input type="submit" class="button" value="Run" />
+                </p>
+                <div class="form_radio_btn">
+                    <input type="radio" id="font1" name="fonts" value="standard" checked>
+                    <label for="font1" >standard</label>
+                </div>
+                <div class="form_radio_btn">
+                    <input type="radio" id="font2" name="fonts" value="shadow" >
+                    <label for="font2">shadow</label>
+                </div>
+                <div class="form_radio_btn">
+                    <input type="radio" id="font3" name="fonts" value="thinkertoy" >
+                    <label for="font3">thinkertoy</label>
+                </div>
+                <div class="form_radio_btn">
+                    <input type="radio" id="font4" name="fonts" value="yourstyle">
+                    <label for="font4">yourstyle</label>
+                </div>
+            </p>
+            <div id="rectangle">
+                <pre>{{ . }}</pre>
+                 </div>
+                <p>
+
+        </form>
+        <p>By Made:</p>
+            <a href="https://github.com/MrRobotDumbazz" class="button" target="_blank">
+            Mr.RobotDumbazz 
+        </a>
+        <a href="https://github.com/Amayev" class="button" target="_blank">
+            Amayev 
+        </a>
+    </div>
+</body>
+</html>

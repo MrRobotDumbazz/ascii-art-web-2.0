@@ -1,0 +1,35 @@
+body {
+    background-color: Rgb(0, 0, 0);
+}
+h1 {
+    font-family: "MBPictureHouseTwo";
+      color:rgb(23, 247, 19);
+  }
+  p {
+    font-family: "MBPictureHouseTwo";
+    font-size: 32px;
+      color:rgb(23, 247, 19);
+  }
+  .button {
+    background-color: #1be422; /* Green */
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    display: inline-block;
+    font-family: "MBPictureHouseTwo";
+    font-size: 24px;
+    transition: all 0.5s ease-in-out;
+  }
+  .button:hover {
+    background-color: rgb(0, 0, 0);
+    color:#1be422
+  }
+  @font-face {
+    font-family: "MBPictureHouseTwo";
+    src: url("./fonts/MBPictureHouseTwo.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+  }
